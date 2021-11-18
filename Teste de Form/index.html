@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!--
+        <header>
+            <div class="form-name">
+                <h1>Página de Login</h1>
+            </div>
+        </header> Quase deu certo kkkk 
+    -->
+
+
+    <main class="container">
+        <h2>Login</h2>
+
+        <form action="#" id="contact-form">
+            <div class="inputs">
+                <div class="input-name">
+                    <input id="name" type="text" placeholder="Enter your username" required>
+                </div>
+
+                <div class="input-password">
+                    <input id="password" type="password" placeholder="Enter your password" maxlength="12" 
+                    pattern="[a-z0-9A-Z]"
+                    title="Sua senha deve conter caracteres de (0 a 9) e (A até Z)"
+                    required>
+                </div>
+
+                <div class="input-button">
+                    <a href="#" target="_self">
+                        <input id="button" type="submit" form="contact-form">
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer">
+                <span id="message">Or sign up with your media:</span>
+
+                <div class="medias">
+                    <div class="media-whatsapp">
+                        <a href="#" target="_blank">
+                            <i class="fab fa-whatsapp">Sign up with Whatsapp</i>
+                        </a>
+                    </div>
+
+                    <div class="media-instagram">
+                        <a href="#" target="_blank">
+                            <i class="fab fa-instagram">Sign up with Instagram</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <footer>
+            <div class="copyright">
+                &copy;GameStacks - 2021
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
